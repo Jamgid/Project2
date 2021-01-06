@@ -8,19 +8,16 @@ a.navbar-brand.logo{
     color: #4bbf73;
     font-size:xx-large ;
 }
+.nav-item a:hover{
+        border-bottom: solid 1px #4bbf73;
+}
 a.btn.btn-secondary.btn-block.login{
     background:#4bbf73;
-<<<<<<< HEAD
-
-    
-}
-img.d-block.w-100{
-    height: 350px;
-=======
 }
 img.d-block.w-100{
     height: 400px;
->>>>>>> ae6d44f3e52950e3beea19831daae5b418382292
+    margin-top: 2rem;
+    
 }
 .steps {
     text-align: center;
@@ -41,8 +38,12 @@ div.section3{
     margin-top:3rem;
     text-align: center;
     background:#4bbf7418 ;
-    height:80px;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.05rem;
+}
+.text{
+    font-size: 1.05rem;
 }
 footer{
     text-align: center;
@@ -52,7 +53,6 @@ footer{
 footer p {
     padding-top: 3rem;
     padding-bottom:1rem ;
-<<<<<<< HEAD
 }
 
 footer.container-fluid {
@@ -62,6 +62,3 @@ footer.container-fluid {
   }
   
   
-=======
-}
->>>>>>> ae6d44f3e52950e3beea19831daae5b418382292
