@@ -23,7 +23,7 @@ db.findAll()
 router.get('/api/doctors', function(req, res){
 
     db.findAll({
-      
+        
     }).then(function(doctors){
     
     res.json(doctors)
@@ -33,6 +33,23 @@ router.get('/api/doctors', function(req, res){
 
 });
 
+//
+router.get('/api/doctors/:id', function(req, res){
+
+    db.findOne({
+        where:{
+            id:req.params.id
+        }
+        
+    }).then(function(doctors){
+    
+    res.json(doctors)
+    console.log(doctors)
+    
+});
+
+});
+//
 router.get('/welcome', (req, res) => res.render('welcome'));
 
 router.get('/add', (req, res) => res.render('add'));
