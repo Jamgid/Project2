@@ -8,11 +8,16 @@ a.navbar-brand.logo{
     color: #4bbf73;
     font-size:xx-large ;
 }
+.nav-item a:hover{
+        border-bottom: solid 1px #4bbf73;
+}
 a.btn.btn-secondary.btn-block.login{
     background:#4bbf73;
 }
 img.d-block.w-100{
     height: 400px;
+    margin-top: 2rem;
+    
 }
 .steps {
     text-align: center;
@@ -33,8 +38,12 @@ div.section3{
     margin-top:3rem;
     text-align: center;
     background:#4bbf7418 ;
-    height:80px;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.05rem;
+}
+.text{
+    font-size: 1.05rem;
 }
 footer{
     text-align: center;
