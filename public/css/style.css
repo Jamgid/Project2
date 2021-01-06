@@ -1,0 +1,47 @@
+nav.navbar.navbar-expand-lg.welcome{
+    background:white;
+}
+nav ul li a{
+    color: black;
+}
+a.navbar-brand.logo{
+    color: #4bbf73;
+    font-size:xx-large ;
+}
+a.btn.btn-secondary.btn-block.login{
+    background:#4bbf73;
+}
+img.d-block.w-100{
+    height: 400px;
+}
+.steps {
+    text-align: center;
+    margin-top: 3rem;
+    border:solid 1px #4bbf73 ;
+    height: 35px;
+    border-radius: 200px;
+    width:50px;
+    margin-left:7rem;
+    padding: 6px;
+}
+div.follow h3{
+    text-align: center;
+    margin-top: 3rem;
+    color:  #4bbf73 ;
+}
+div.section3{
+    margin-top:3rem;
+    text-align: center;
+    background:#4bbf7418 ;
+    height:80px;
+    padding-top: 10px;
+}
+footer{
+    text-align: center;
+    margin-top: 3rem;
+    border-top: solid 1px rgb(223, 221, 221);
+}
+footer p {
+    padding-top: 3rem;
+    padding-bottom:1rem ;
+}
