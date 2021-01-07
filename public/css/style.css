@@ -4,8 +4,8 @@ nav.navbar.navbar-expand-lg.welcome{
 nav ul li a{
     color: black;
 }
-a.navbar-brand.logo{
-    color: #4bbf73;
+nav a h2{
+    color:#2c8049e0;
     font-size:xx-large ;
 }
 .nav-item a:hover{
@@ -15,9 +15,16 @@ a.btn.btn-secondary.btn-block.login{
     background:#4bbf73;
 }
 img.d-block.w-100{
-    height: 450px;
+    height: 500px;
     margin-top: 0rem;
     
+}
+div.jumbotron.jumbotron-fluid.home{
+background:linear-gradient(45deg, #4bbf73, transparent);
+
+}
+div.col-md-4.specialty ul li{
+    list-style: none;
 }
 .steps {
     text-align: center;
