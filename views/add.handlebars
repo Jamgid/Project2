@@ -1,8 +1,26 @@
  {{>nav2}}
 
 <section id="add" class="container">
+    <div class="row-g-3 float-right">
+      <div class="col-md-7 border border-primary">
+        <h5 class="text-center">If you already have a <span class="text-success">favorite</span> doctor, </br>
+           you can <span class="text-warning">add</span> them to your list by filling </br>
+           out their information in this form.</h5>
+      </div>
+    </div>
+    <div class="row-g-3 ">
+      <div class="col-md-7 float-right ">
+        <img style="margin-left:115px" class="w-50" src="/assets/doctors4.jpg" alt="">
+      </div>
+    </div>
+    <div class="row-g-3 float-right">
+      <div style="margin-right:20px ;" class="col-md-7 border border-primary">
+        <h5 class="text-center">You can <span class="text-warning">view</span> your </br> addition as well as 
+           all other doctors </br> on your list by</br> clicking on the <span class="text-success">"Doctors"</span> tab above</h5>
+      </div>
+    </div>
     <div class="form-wrap border border-success w-50 p-3 align-middle" style="margin-top: 4rem;">
-      <h1>Add A Doctor <i class="fas fa-notes-medical"></i></h1>
+      <h1>Add A Doctor <i class="fas fa-notes-medical"></i></h1>   
      <div class="row-g-3">
        <div class="col-md-6">
           <form action="/doctors/add" method="POST">
@@ -44,7 +62,7 @@
             <input class="btn btn-sm btn-light border border-primary rounded-pill" type="submit" value="Add Doctor" class="btn btn-reverse">
           </form>
         </div>
-      </div>    
+      </div> 
     </div>
   </section>
   {{>footer}}
