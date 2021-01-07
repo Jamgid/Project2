@@ -15,35 +15,41 @@ a.btn.btn-secondary.btn-block.login{
     background:#4bbf73;
 }
 img.d-block.w-100{
-    height: 400px;
-    margin-top: 2rem;
+    height: 450px;
+    margin-top: 0rem;
     
 }
 .steps {
     text-align: center;
+    color: white;
     margin-top: 3rem;
-    border:solid 1px #4bbf73 ;
-    height: 35px;
-    border-radius: 200px;
-    width:50px;
-    margin-left:7rem;
-    padding: 6px;
+    border:solid 3px #4bbf7418 ;
+    height: 50px;
+    border-radius: 15px;
+    width:75px;
+    margin-left:8rem;
+    padding: 10px;
+    font-family: monospace;
+    font-size: x-large;
+    background-color: #4bbf73;
 }
 div.follow h3{
     text-align: center;
     margin-top: 3rem;
-    color:  #4bbf73 ;
+    color: #4bbf73 ;
+    font-size: xx-large;
 }
 div.section3{
     margin-top:3rem;
     text-align: center;
     background:#4bbf7418 ;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 25px;
+    padding-bottom: 5px;
     font-size: 1.05rem;
 }
 .text{
     font-size: 1.05rem;
+    padding-top: 25px;
 }
 footer{
     text-align: center;
@@ -61,4 +67,4 @@ footer.container-fluid {
     padding: 0 15px;
   }
   
-  
+ 

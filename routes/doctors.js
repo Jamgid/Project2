@@ -1,4 +1,3 @@
-
 const express = require('express');
 const router = express.Router();
 const modals = require('../models/index');
@@ -34,6 +33,22 @@ router.get('/api/doctors', function(req, res){
 });
 
 //
+router.get('/api/doctors/:id', function(req, res){
+
+    db.findOne({
+        where:{
+            id:req.params.id
+        }
+        
+    }).then(function(doctors){
+    
+    res.json(doctors)
+    console.log(doctors)
+    
+});
+
+});
+//
 router.get('/welcome', (req, res) => res.render('welcome'));
 
 router.get('/add', (req, res) => res.render('add'));
@@ -56,23 +71,8 @@ router.post('/add', (req,res) => {
 })
 
 
-
-// router.get('/search', (req, res) => {
-//         let { term } = req.query;
-    
-//         // Make lowercase
-//         term = term.toLowerCase();
-    
-//         db.findAll({ 
-//             where: { speciality: { [Op.like]: '%' + term + '%' } },
-//             where: { zipcode: { [Op.like]: '%' + term + '%' } }})
-//         .then(doctors => res.render('doctors', { doctors }))
-//         .catch(err => res.render('error', {error: err}));
-//     });
-  
 router.get('/search', (req, res) => {
     let { term } = req.query;
-  
     // Make lowercase
     term = term.toLowerCase();
   

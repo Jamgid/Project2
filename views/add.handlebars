@@ -1,52 +1,119 @@
  {{>nav2}}
 
 <section id="add" class="container">
+    <div class="row-g-3 float-right">
+      <div class="col-md-7 border border-primary">
+        <h5 class="text-center">If you already have a 
+          <span class="text-success">favorite</span> doctor, </br>
+           you can <span class="text-warning">add</span> 
+           them to your list by filling </br>
+           out their information in this form.</h5>
+      </div>
+    </div>
+    <div class="row-g-3 ">
+      <div class="col-md-7 float-right ">
+        <img style="margin-left:115px" class="w-50" src="/assets/doctors4.jpg" alt="">
+      </div>
+    </div>
+    <div class="row-g-3 float-right">
+      <div style="margin-right:20px ;" class="col-md-7 border border-primary">
+        <h5 class="text-center">You can <span class="text-warning">view</span> 
+           your </br> addition as well as 
+           all other doctors </br> 
+           on your list by</br> clicking on the 
+           <span class="text-success">"Doctors"</span>tab above.
+        </h5>
+      </div>
+    </div>
     <div class="form-wrap border border-success w-50 p-3 align-middle" style="margin-top: 4rem;">
-      <h1>Add A Doctor <i class="fas fa-notes-medical"></i></h1>
+      <h1>Add A Doctor <i class="fas fa-notes-medical"></i></h1>   
      <div class="row-g-3">
        <div class="col-md-6">
           <form action="/doctors/add" method="POST">
             <div class="form-group">
               <label for="name">Name</label>
-              <input class="form-control border border-primary rounded-pill" type="text" name="name" id="name" class="input-box" placeholder="eg. Jon Doe"
-                maxlength="100" value={{name}}>
+              <input class="form-control border border-primary rounded-pill" 
+                type="text" 
+                name="name" 
+                id="name" 
+                class="input-box" 
+                placeholder="eg. Jon Doe"
+                maxlength="100" 
+                value={{name}}>
             </div>
             <div class="form-group">
               <label for="email">Email</label>
-              <input class="form-control border border-primary rounded-pill" type="email" name="email" id="email" class="input-box" placeholder="Enter an email" value={{email}}>
+              <input class="form-control border border-primary rounded-pill" 
+                type="email" 
+                name="email" 
+                id="email" 
+                class="input-box" 
+                placeholder="Enter an email" 
+                value={{email}}>
             </div>
             <div class="form-group">
               <label for="Phone">Phone</label>
-              <input class="form-control border border-primary rounded-pill" type="text" name="phone" id="Phone" class="input-box" placeholder="1234567899"
-              maxlength="100" value={{phone}}>
+              <input class="form-control border border-primary rounded-pill" 
+                type="text" 
+                name="phone" 
+                id="Phone" 
+                class="input-box" 
+                placeholder="1234567899"
+                maxlength="100" 
+                value={{phone}}>
             </div>
             <div class="form-group">
               <label for="city">city</label>
-              <input class="form-control border border-primary rounded-pill" type="text" name="city" id="city" class="input-box" placeholder="Troy"
-              maxlength="100" value={{city}}>
+              <input class="form-control border border-primary rounded-pill" 
+                type="text" 
+                name="city" 
+                id="city" 
+                class="input-box" 
+                placeholder="Troy"
+                maxlength="100" 
+                value={{city}}>
             </div>
             <div class="form-group">
               <label for="zipcode">zipcode</label>
-              <input class="form-control border border-primary rounded-pill" type="text" name="zipcode" id="zipcode" class="input-box" placeholder="12345"
-              maxlength="100" value={{zipcode}}>
+              <input class="form-control border border-primary rounded-pill" 
+                type="text" 
+                name="zipcode" 
+                id="zipcode" 
+                class="input-box" 
+                placeholder="12345"
+                maxlength="100" 
+                value={{zipcode}}>
             </div>
             <div class="form-group">
               <label for="state">state</label>
-              <input class="form-control border border-primary rounded-pill" type="text" name="state" id="state" class="input-box" placeholder="MI"
-              maxlength="100" value={{state}}>
+              <input class="form-control border border-primary rounded-pill" 
+                type="text" 
+                name="state" 
+                id="state" 
+                class="input-box" 
+                placeholder="MI"
+                maxlength="100" 
+                value={{state}}>
             </div>
             <div class="form-group">
               <label for="speciality">speciality</label>
-              <input class="form-control border border-primary rounded-pill" type="text" name="speciality" id="speciality" class="input-box" placeholder="CARDIOLOGY"
-              maxlength="100" value={{speciality}}>
+              <input class="form-control border border-primary rounded-pill" 
+                type="text" 
+                name="speciality" 
+                id="speciality" 
+                class="input-box" 
+                placeholder="CARDIOLOGY"
+                maxlength="100" value={{speciality}}>
             </div>
             
-            <input class="btn btn-sm btn-light border border-primary rounded-pill" type="submit" value="Add Doctor" class="btn btn-reverse">
+            <input class="btn btn-sm btn-light border border-primary rounded-pill" 
+              type="submit" 
+              value="Add Doctor" 
+              class="btn btn-reverse">
           </form>
         </div>
-      </div>    
+      </div> 
     </div>
-    <img class="float-right" src="/assets/doctors4.jpg" alt=".....">
   </section>
   {{>footer}}
 
