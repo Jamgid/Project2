@@ -76,10 +76,20 @@ router.get('/search', (req, res) => {
     // Make lowercase
     term = term.toLowerCase();
   
-    db.findAll({ where: { speciality: { [Op.like]: '%' + term + '%' } } })
+    db.findAll({ where: { city: { [Op.like]: '%' + term + '%' } } })
       .then(doctors => res.render('doctors', { doctors }))
       .catch(err => res.render('error', {error: err}));
   });
   
-
+  router.get('/speciality', (req, res) => {
+    let { speciality } = req.query;
+  
+    // Make lowercase
+    //term = term.toLowerCase();
+  
+    db.findAll({ where: { speciality: { [Op.like]: '%' + speciality + '%' } } })
+      .then(doctors => res.render('doctors', { doctors }))
+      .catch(err => res.render('error', {error: err}));
+  });
+  
 module.exports = router
