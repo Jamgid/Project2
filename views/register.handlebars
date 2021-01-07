@@ -2,8 +2,8 @@
 
 <div class="row mt-5">
     <div class="col-md-6 m-auto">
-      <div class="card card-body bg-success text-dark">
-        <h1 class="text-center mb-3">
+      <div class="card card-body border border-primary">
+        <h1 class="text-center mb-3 border-bottom border-primary">
           <i class="fas fa-user-plus"></i> Register
         </h1>
         {{> messages }}
@@ -14,7 +14,7 @@
               type="name"
               id="name"
               name="name"
-              class="form-control"
+              class="form-control border border-primary rounded-pill"
               placeholder="Enter Name"
               value={{name}}
             >
@@ -25,7 +25,7 @@
               type="email"
               id="email"
               name="email"
-              class="form-control"
+              class="form-control border border-primary rounded-pill"
               placeholder="Enter Email"
               value= {{email}}
             >
@@ -36,7 +36,7 @@
               type="password"
               id="password"
               name="password"
-              class="form-control"
+              class="form-control border border-primary rounded-pill"
               placeholder="Create Password"
               value= {{password}}
             >
@@ -47,14 +47,14 @@
               type="password"
               id="password2"
               name="password2"
-              class="form-control"
+              class="form-control border border-primary rounded-pill"
               placeholder="Confirm Password"
               value= {{password2}}
             >
           </div>
           <button type="submit" class="btn btn-primary btn-block">Register</button>
         </form>
-        <p class="lead mt-4">Have An Account? <a href="/users/login">Login</a></p>
+        <p class="lead mt-4">Have An Account? <a class="text-info" href="/users/login">Login</a></p>
       </div>
     </div>
   </div>
