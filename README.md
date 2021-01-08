@@ -1,8 +1,8 @@
 <h1 align="center">Doctor Proctor</h1>
-
+   ![](https://img.shields.io/badge/License-ISC-green)
 
    ![](/public/assets/DOCTORP.gif)
-</h2>
+
 <br>
 
 <h2>Project Requirements</h2>
