@@ -14,7 +14,7 @@
     <li>Must be deployed using Heroku (with data)</li>
     <li>Must utilize at least one new library, package, or technology that we haven't discussed</li>
     <li>Must have a polished front end/UI</li>
-    <li>Must bhave a folder structure that meets the MVC paradigm</li>
+    <li>Must have a folder structure that meets the MVC paradigm</li>
     <l1>Must meet giid quality coding standards (indentation, scoping, naming)</l1>
     <l1>Must protect API keys in Node with environment variables</l1>
 </ol>
