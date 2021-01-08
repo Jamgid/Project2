@@ -45,6 +45,54 @@
 <br>
 
 <h2>Contributors</h2>
-
+<ul>
+    <li>
+        <a href="https://github.com/Jamgid">@Jamgid</a>
+    </li>
+        <ul>
+            <li>BackEnd Development</li>
+            <li>FrontEnd Design</li>
+            <li>Register & Login Requirement</li>
+        </ul>
+    <li>
+        <a href="https://github.com/bettycode">@bettycode</a>
+    </li>
+        <ul>
+            <li>FrontEnd Development</li>
+            <li>BackEnd Development (Database)</li>
+        </ul>
+    <li>
+        <a href="https://github.com/ShaneD42">@ShaneD42</a>
+    </li>
+        <ul>
+            <li>FrontEnd</li>
+            <li>Handlebars & CSS</li>
+        </ul>
+    <li>
+        <a href="https://github.com/mathisshayy">@mathisshayy</a>
+    </li>
+        <ul>
+            <li>BackEnd Development</li>
+            <li>API</li>
+            <li>Controller</li>
+            <li>Routes</li>
+        </ul>
+    <li>
+        <a href="https://github.com/josephwojtowicz">@josephwojtowicz</a>
+    </li>
+        <ul>
+            <li>BackEnd Development (Database)</li>
+            </ul>
+     <li>
+        <a href="https://github.com/jsegnegon">@jsegnegon</a>
+    </li>
+        <ul>
+            <li>README</li>
+        </ul>
+    <li>
         
 </ul>
+<br>
+
+        
+
