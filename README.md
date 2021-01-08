@@ -1,7 +1,7 @@
 <h1 align="center">Doctor Proctor</h1>
 
 
-   ![] (/public/assets/DOCTORP.gif)
+   ![](/public/assets/DOCTORP.gif)
 </h2>
 <br>
 
