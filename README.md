@@ -1,7 +1,7 @@
 <h1 align="center">Doctor Proctor</h1>
 
 
-    <a href="">=> Live Demo <=</a>
+   ![] (DOCTORP.gif)
 </h2>
 <br>
 
