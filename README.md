@@ -27,10 +27,8 @@
 <p>With a simple click you can find the doctor in your network also by their specality. Keep your mind at ease knowing that finding your doctor is that much easier!</p>
 <br>
 
-<h2 align="center">
-    //Demo
-</h2>
-<br>
+
+
 
 <h2>How to Use</h2>
 <ol>
