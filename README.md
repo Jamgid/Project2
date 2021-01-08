@@ -45,52 +45,6 @@
 <br>
 
 <h2>Contributors</h2>
-<ul>
-    <li>
-        <a href="https://github.com/Jamgid">@Jamgid</a>
-    </li>
-        <ul>
-            
-        </ul>
-    <li>
-        <a href="https://github.com/bettycode">@bettycode</a>
-    </li>
-        <ul>
-            <li>Displaying API Objects Dynamically</li>
-            <li>IMBD Links</li>
-        </ul>
-    <li>
-        <a href="https://github.com/ShaneD42">@ShaneD42</a>
-    </li>
-        <ul>
-            <li>Ratings & Reviews (input, display, localstorage)</li>
-            <li>Random Topic Function</li>
-        </ul>
-    <li>
-        <a href="https://github.com/jsegnegon">@jsegnegon</a>
-    </li>
-        <ul>
-            <li>Suggestion Box</li>
-        </ul>
-    <li>
-        <a href="https://github.com/josephwojtowicz">@josephwojtowicz</a>
-    </li>
-        <ul>
-            <li>Get Functions for APIs</li>
-            <li>README</li>
-        </ul>
-    <li>
-        <a href="https://github.com/mathisshayy">@mathisshayy</a>
-    </li>
-        <ul>
-            <li>Get Functions for APIs</li>
-            <li>README</li>
-        </ul>    
-    
-</ul>
-<br>
 
-<h2>Lessons Learned</h2>
-<ul>
-   
+        
 </ul>
