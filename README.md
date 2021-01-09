@@ -1,6 +1,10 @@
 ## Doctor Proctor
+
+## Deployed link
+##  https://doctor-proctor.herokuapp.com/doctors/welcome
 ##  ![](https://img.shields.io/badge/License-ISC-green)
-Copyright 2021 James Gideon
+Copyright 2021 James Gideon, Joe Wojtowicz Jahnye, Segnegon, Shane Daykin, Shay Mathis, Bethlehem Balcha
+
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 
@@ -60,8 +64,10 @@ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH RE
         <a href="https://github.com/bettycode">@bettycode</a>
     </li>
         <ul>
+           <li>Team Lead</li>
+           <li>Heroku Deployment </li>
             <li>FrontEnd Development</li>
-            <li>BackEnd Development (Database)</li>
+            <li>BackEnd Development (Database, routs,)</li>
         </ul>
     <li>
         <a href="https://github.com/ShaneD42">@ShaneD42</a>
@@ -76,7 +82,6 @@ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH RE
         <ul>
             <li>BackEnd Development</li>
             <li>API</li>
-            <li>Controller</li>
             <li>Routes</li>
         </ul>
     <li>
@@ -95,5 +100,16 @@ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH RE
         
 <br>
 
-        
+##  Tecnology Used
+
+* MYSQL
+* EXPRESS
+* PASSPORT
+* SEQUELIZE-CLI
+* SEQUELIZE
+* MONGOOSE
+* EXPRESS-HANDLEBARS
+* BYCRYPTS
+
+   
 
