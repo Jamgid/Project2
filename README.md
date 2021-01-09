@@ -1,7 +1,7 @@
 ## Doctor Proctor
 
 ## Deployed link
-##  https://doctor-proctor.herokuapp.com/doctors/welcome
+https://doctor-proctor.herokuapp.com/doctors/welcome
 ##  ![](https://img.shields.io/badge/License-ISC-green)
 Copyright 2021 James Gideon, Joe Wojtowicz Jahnye, Segnegon, Shane Daykin, Shay Mathis, Bethlehem Balcha
 
